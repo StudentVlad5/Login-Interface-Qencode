@@ -1,0 +1,41 @@
+const theme = {
+  breakpoints: {
+    mobile: '375px',
+    tablet: '768px',
+    desktop: '1440px',
+    mobile_max: '374.98px',
+    tablet_max: '767.98px',
+    desktop_max: '1439.98px',
+  },
+  colors: {
+    white: '#ffffff',
+    black: '#000000',
+    blue: '#316FEA',
+    text: '#1a1919',
+    borders: '#d3d8dc',
+    btnName: '#060e1e',
+    grey: '#BEC5CC',
+    green:'green',
+    red: 'red',
+    inputText:'#a1abb5',
+    primary:'#383838',
+  },
+  fonts: ['Basis Grotesque Pro, sans-serif'],
+  fontSizes: {
+    extrasmall10: '10px',
+    extrasmall12: '12px',
+    small14: '14px',
+    small15: '15px',
+    small16: '16px',
+    medium: '18px',
+    large: '20px',
+    extra: '24px',
+    extra30: '30px',
+    XL: '32px',
+    extraXXL: '36px',
+  },
+  transition: ['all 0.25s ease-in', 'all 150ms linear'],
+  scale: ['scale(1.15)'],
+};
+
+export default theme;
