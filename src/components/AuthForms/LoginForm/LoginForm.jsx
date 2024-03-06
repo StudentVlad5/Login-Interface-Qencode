@@ -10,6 +10,7 @@ import theme from 'components/baseStyles/Variables.styled';
 import { ButtonRegistration } from 'components/elements/ButtonREG/ButtonRegistration';
 import { LogIn } from 'services/auth';
 import { useGoogleLogin } from '@react-oauth/google';
+import { onInfo } from 'services/Messages/NotifyMessages';
 
 
 
@@ -65,7 +66,7 @@ export const LoginForm = () => {
   <BtnContainer>
     <StandartBtn type="button" aria-label='Login with Google' title ='Login with Google' onClick={() => login()}><IconGoogle/><BtnName>Google</BtnName>
     </StandartBtn>
-    <StandartBtn type="button" aria-label='Login with Git' title ='Login with Git' onClick={() => console.log("Registration with Git")}><IconGit/><BtnName>Git</BtnName>
+    <StandartBtn type="button" aria-label='Login with Git' title ='Login with Git' onClick={() => onInfo("Registration with Git")}><IconGit/><BtnName>Git</BtnName>
     </StandartBtn>
   </BtnContainer>
   <OrContainer>
