@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react';
-import { getFromStorage, saveToStorage } from 'services/localStorService';
+import { getFromStorage } from 'services/localStorService';
 
 export const StatusContext = createContext();
 
