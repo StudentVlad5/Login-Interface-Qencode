@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Login-Interface-Qencode/static/css/main.7cda0caf.css",
+    "main.js": "/Login-Interface-Qencode/static/js/main.29a07e01.js",
+    "static/js/79.30db30d8.chunk.js": "/Login-Interface-Qencode/static/js/79.30db30d8.chunk.js",
+    "static/js/799.abf5ce3e.chunk.js": "/Login-Interface-Qencode/static/js/799.abf5ce3e.chunk.js",
+    "static/js/394.d15a972c.chunk.js": "/Login-Interface-Qencode/static/js/394.d15a972c.chunk.js",
+    "static/js/860.302798b8.chunk.js": "/Login-Interface-Qencode/static/js/860.302798b8.chunk.js",
+    "static/js/357.413c1e36.chunk.js": "/Login-Interface-Qencode/static/js/357.413c1e36.chunk.js",
+    "static/js/299.f682efe8.chunk.js": "/Login-Interface-Qencode/static/js/299.f682efe8.chunk.js",
+    "static/media/BasisGrotesqueArabicPro-Regular.ttf": "/Login-Interface-Qencode/static/media/BasisGrotesqueArabicPro-Regular.668dad8a3d4075989eae.ttf",
+    "static/media/BasisGrotesqueArabicPro-Light.ttf": "/Login-Interface-Qencode/static/media/BasisGrotesqueArabicPro-Light.faf4233b1e3042eaba8a.ttf",
+    "static/media/BasisGrotesqueArabicPro-Bold.ttf": "/Login-Interface-Qencode/static/media/BasisGrotesqueArabicPro-Bold.6a8558f0425780c56efa.ttf",
+    "static/media/logo.svg": "/Login-Interface-Qencode/static/media/logo.a999dd2773db41ce8719a67204a1e2a0.svg",
+    "static/media/icon_git.svg": "/Login-Interface-Qencode/static/media/icon_git.c4ad5957211ad336be01bccb9c1f3b7f.svg",
+    "static/media/icon_google.svg": "/Login-Interface-Qencode/static/media/icon_google.b6daf002bcba57d7328f86037098f866.svg",
+    "index.html": "/Login-Interface-Qencode/index.html",
+    "main.7cda0caf.css.map": "/Login-Interface-Qencode/static/css/main.7cda0caf.css.map",
+    "main.29a07e01.js.map": "/Login-Interface-Qencode/static/js/main.29a07e01.js.map",
+    "79.30db30d8.chunk.js.map": "/Login-Interface-Qencode/static/js/79.30db30d8.chunk.js.map",
+    "799.abf5ce3e.chunk.js.map": "/Login-Interface-Qencode/static/js/799.abf5ce3e.chunk.js.map",
+    "394.d15a972c.chunk.js.map": "/Login-Interface-Qencode/static/js/394.d15a972c.chunk.js.map",
+    "860.302798b8.chunk.js.map": "/Login-Interface-Qencode/static/js/860.302798b8.chunk.js.map",
+    "357.413c1e36.chunk.js.map": "/Login-Interface-Qencode/static/js/357.413c1e36.chunk.js.map",
+    "299.f682efe8.chunk.js.map": "/Login-Interface-Qencode/static/js/299.f682efe8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cda0caf.css",
+    "static/js/main.29a07e01.js"
+  ]
+}
