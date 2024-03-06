@@ -4,9 +4,11 @@
   "private": true,
   "homepage": "https://studentvlad5.github.io/Login-Interface-Qencode/",
   "dependencies": {
+    "@react-oauth/google": "^0.12.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
     "formik": "^2.4.5",
     "modern-normalize": "^2.0.0",
     "react": "^18.2.0",

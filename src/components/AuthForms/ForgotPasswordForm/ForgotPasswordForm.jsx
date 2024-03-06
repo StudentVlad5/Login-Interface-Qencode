@@ -7,6 +7,7 @@ import { FormContainer, Title, ErrorBox,  Input } from '../LoginForm/LoginForm.s
 import theme from 'components/baseStyles/Variables.styled';
 import { ButtonRegistration } from 'components/elements/ButtonREG/ButtonRegistration';
 import { BtnCancel } from './ForgotPasswordForm.styled';
+import { forgotPassword } from 'services/auth';
 
 
 
@@ -18,13 +19,7 @@ export const ForgotPasswordForm = () => {
   const onSubmit = values => {
     setIsLoading(true);
     const { email } = values;
-    // dispatch(
-    //   logIn({
-    //     email,
-    //     password,
-    //   }),
-
-    // );
+    forgotPassword({email});
     setIsLoading(false);
   };
 
@@ -32,7 +27,7 @@ export const ForgotPasswordForm = () => {
     initialValues: {
       email: '',
     },
-    validationSchema: schemas.schemasLogin,
+    validationSchema: schemas.changePasswordSchema,
     onSubmit,
   });
 
@@ -54,7 +49,7 @@ export const ForgotPasswordForm = () => {
   return (
 <FormContainer>
   <Title>Forgot Password?</Title>
-    <Formik validationSchema={schemas.schemasLogin}>
+    <Formik validationSchema={schemas.changePasswordSchema}>
           <Form style={{width:"100%", display:"flex", flexDirection:"column", gap:"25px", marginBottom:"15px"}} onSubmit={formik.handleSubmit} autoComplete="off">
               <div style={{width:"100%", position:"relative"}}>
                 <Input
@@ -77,12 +72,12 @@ export const ForgotPasswordForm = () => {
                 ) : null}
               </div>
 
-          </Form>
-        </Formik>
-      
-        <ButtonRegistration type="submit" disabled={isValid} ariaLabel='Forgot Password' title ={'Forgot Password'} name={"Send"}/>
-        <BtnCancel type="button"  ariaLabel='Cancel Button' title ='Cancel Button'>Cancel</BtnCancel>
+              <ButtonRegistration type="submit" disabled={isValid} aria-label='Forgot Password' title ={'Forgot Password'} name={isLoading ? 'Loading' : "Send"}/>
+              
+              <BtnCancel type="reset"  aria-label='Cancel Button' title ='Cancel Button' onClick={e => formik.resetForm()}>Cancel</BtnCancel>
 
+          </Form>
+      </Formik>
 </FormContainer>
   );
 };

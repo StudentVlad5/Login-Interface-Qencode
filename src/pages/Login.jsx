@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageContainer } from './Page.styled';
-import { LoginForm } from 'components/LoginForm/LoginForm';
+import { LoginForm } from 'components/AuthForms/LoginForm/LoginForm';
 import {ReactComponent as Logo }  from 'images/svg/logo.svg'
 
 const Login = () => {

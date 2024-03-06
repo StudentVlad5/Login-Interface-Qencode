@@ -1,8 +1,7 @@
 import React from "react";
 import { ButtonREG } from "./ButtonRegistration.styled";
 
-export const ButtonRegistration = ({type, title, name, disabled}) => {
+export const ButtonRegistration = ({title, name, disabled}) => {
     return (
-    <ButtonREG type={type} title={title} disabled={disabled}>{name}</ButtonREG>)
-
+    <ButtonREG title={title} disabled={disabled}>{name}</ButtonREG>)
 }
